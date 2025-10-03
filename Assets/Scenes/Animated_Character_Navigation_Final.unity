@@ -1298,6 +1298,7 @@ GameObject:
   - component: {fileID: 2130074504}
   - component: {fileID: 2130074503}
   - component: {fileID: 2130074508}
+  - component: {fileID: 2130074509}
   m_Layer: 0
   m_Name: Agente
   m_TagString: Untagged
@@ -1426,3 +1427,15 @@ MonoBehaviour:
   loseTime: 2
   anim: {fileID: 1622287060}
   debugDraw: 1
+--- !u!114 &2130074509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130074502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8829135d73e6ad144b97f5587b5a3685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
