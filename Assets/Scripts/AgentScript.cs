@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class AgentScript : MonoBehaviour
 {
@@ -125,5 +126,15 @@ public class AgentScript : MonoBehaviour
         }
 
         return false;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Game Over");
+            SceneManager.LoadScene("GameOverScene");
+           
+        }
     }
 }
